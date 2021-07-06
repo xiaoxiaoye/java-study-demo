@@ -1,0 +1,40 @@
+CREATE TABLE `registry_define` (
+  `ID` int(32) NOT NULL DEFAULT '0',
+  `NAME` varchar(255) DEFAULT NULL,
+  `HOST` varchar(255) DEFAULT NULL,
+  `PORT` int(32) DEFAULT NULL,
+  `USER` varchar(255) DEFAULT NULL,
+  `PASSWORD` varchar(255) DEFAULT NULL,
+  `HARBOR_PRODUCT_NAME` varchar(255) DEFAULT NULL,
+  `HARBOR_PRODUCT_ID` int(11) DEFAULT NULL,
+  `TYPE` varchar(255) DEFAULT NULL,
+  `SCHEME` varchar(255) DEFAULT NULL,
+  `HEALTH` int(255) DEFAULT NULL,
+  `CREATE_TIME` datetime DEFAULT NULL,
+  `UPDATE_TIME` datetime DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE `images` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `image_id` VARCHAR(45) NULL,
+  `name` VARCHAR(45) NULL,
+  `tag` VARCHAR(45) NULL,
+  `size` INT NULL,
+  `registry_address` VARCHAR(45) NULL,
+  `registry_name` VARCHAR(45) NULL,
+  `config` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB DEFAULT CHARACTER SET = DEFAULT;
+
+CREATE TABLE `sys_log` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `username` VARCHAR(45) NULL,
+  `operation` VARCHAR(255) NULL,
+  `method` VARCHAR(255) NULL,
+  `params` VARCHAR(255) NULL,
+  `ip` VARCHAR(45) NULL,
+  `create_time` DATETIME NULL,
+  PRIMARY KEY (`id`));
+
+COMMIT;

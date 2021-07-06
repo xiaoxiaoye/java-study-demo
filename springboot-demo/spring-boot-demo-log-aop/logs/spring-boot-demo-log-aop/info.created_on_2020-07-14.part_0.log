@@ -1,0 +1,35 @@
+2020-07-14 22:00:53,200 [main] INFO  [c.e.s.SpringBootDemoLogAopApplication] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplication on xiejiaxindeMacBook-Pro.local with PID 59455 (/Users/yejiaxin/Documents/Study/java/Spring/spring-boot-demo-log-aop/target/classes started by yejiaxin in /Users/yejiaxin/Documents/Study/java/Spring/spring-boot-demo-log-aop)
+2020-07-14 22:00:53,202 [main] INFO  [c.e.s.SpringBootDemoLogAopApplication] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+2020-07-14 22:00:54,124 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+2020-07-14 22:00:54,131 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-07-14 22:00:54,132 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 22:00:54,187 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-07-14 22:00:54,188 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 954 ms
+2020-07-14 22:00:54,419 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:00:54,591 [main] WARN  [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] AbstractApplicationContext.java:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2020-07-14 22:00:54,592 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:00:54,594 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Stopping service [Tomcat]
+2020-07-14 22:00:54,602 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-14 22:16:44,612 [main] INFO  [c.e.s.SpringBootDemoLogAopApplication] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplication on xiejiaxindeMacBook-Pro.local with PID 59685 (/Users/yejiaxin/Documents/Study/java/Spring/spring-boot-demo-log-aop/target/classes started by yejiaxin in /Users/yejiaxin/Documents/Study/java/Spring/spring-boot-demo-log-aop)
+2020-07-14 22:16:44,615 [main] INFO  [c.e.s.SpringBootDemoLogAopApplication] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+2020-07-14 22:16:45,390 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+2020-07-14 22:16:45,396 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-07-14 22:16:45,397 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 22:16:45,441 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-07-14 22:16:45,441 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 797 ms
+2020-07-14 22:16:45,641 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:16:45,829 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 22:16:45,837 [main] INFO  [c.e.s.SpringBootDemoLogAopApplication] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplication in 1.488 seconds (JVM running for 2.149)
+2020-07-14 22:17:06,031 [http-nio-8080-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 22:17:06,032 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2020-07-14 22:17:06,041 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 9 ms
+2020-07-14 22:17:06,073 [http-nio-8080-exec-1] INFO  [com.example.springbootdemologaop.aspectj.AopLog] AopLog.java:31 - 【请求 URL】：http://127.0.0.1:8080/test
+2020-07-14 22:17:06,075 [http-nio-8080-exec-1] INFO  [com.example.springbootdemologaop.aspectj.AopLog] AopLog.java:32 - 【请求 IP】：127.0.0.1
+2020-07-14 22:17:06,077 [http-nio-8080-exec-1] INFO  [com.example.springbootdemologaop.aspectj.AopLog] AopLog.java:33 - 【请求类名】：class com.example.springbootdemologaop.controller.TestController，【请求方法名】：test
+2020-07-14 22:17:06,084 [http-nio-8080-exec-1] INFO  [com.example.springbootdemologaop.aspectj.AopLog] AopLog.java:37 -  【请求参数】:{}
+2020-07-14 22:17:06,096 [http-nio-8080-exec-1] INFO  [com.example.springbootdemologaop.aspectj.AopLog] AopLog.java:58 - 【请求耗时】：12毫秒
+2020-07-14 22:17:06,110 [http-nio-8080-exec-1] INFO  [com.example.springbootdemologaop.aspectj.AopLog] AopLog.java:62 - 【浏览器类型】：CHROME8，【操作系统】：MAC_OS_X，【原始User-Agent】：Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020-07-14 22:17:06,125 [http-nio-8080-exec-1] INFO  [com.example.springbootdemologaop.aspectj.AopLog] AopLog.java:47 - 【返回值】：{"who":"me"}
+2020-07-14 22:18:37,848 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'

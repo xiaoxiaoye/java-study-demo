@@ -1,0 +1,48 @@
+2020-09-15 22:26:04.527 ERROR 35952 --- [quartzScheduler_QuartzSchedulerThread] o.s.s.quartz.LocalDataSourceJobStore     JobStoreSupport.java:3729: Couldn't rollback jdbc connection. Connection is closed
+
+java.sql.SQLException: Connection is closed
+	at com.zaxxer.hikari.pool.ProxyConnection$ClosedConnection.lambda$getClosedConnection$0(ProxyConnection.java:515)
+	at com.sun.proxy.$Proxy89.rollback(Unknown Source)
+	at com.zaxxer.hikari.pool.ProxyConnection.rollback(ProxyConnection.java:396)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.rollback(HikariProxyConnection.java)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.invoke(AttributeRestoringConnectionInvocationHandler.java:73)
+	at com.sun.proxy.$Proxy190.rollback(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.rollbackConnection(JobStoreSupport.java:3727)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.executeInNonManagedTXLock(JobStoreSupport.java:3868)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.retryExecuteInNonManagedTXLock(JobStoreSupport.java:3819)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.releaseAcquiredTrigger(JobStoreSupport.java:2940)
+	at org.quartz.core.QuartzSchedulerThread.releaseIfScheduleChangedSignificantly(QuartzSchedulerThread.java:472)
+	at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:333)
+
+2020-09-15 22:26:04.528 ERROR 35952 --- [quartzScheduler_QuartzSchedulerThread] o.s.s.quartz.LocalDataSourceJobStore     JobStoreSupport.java:3729: Couldn't rollback jdbc connection. Connection is closed
+
+java.sql.SQLException: Connection is closed
+	at com.zaxxer.hikari.pool.ProxyConnection$ClosedConnection.lambda$getClosedConnection$0(ProxyConnection.java:515)
+	at com.sun.proxy.$Proxy89.rollback(Unknown Source)
+	at com.zaxxer.hikari.pool.ProxyConnection.rollback(ProxyConnection.java:396)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.rollback(HikariProxyConnection.java)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.invoke(AttributeRestoringConnectionInvocationHandler.java:73)
+	at com.sun.proxy.$Proxy190.rollback(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.rollbackConnection(JobStoreSupport.java:3727)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.executeInNonManagedTXLock(JobStoreSupport.java:3886)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.retryExecuteInNonManagedTXLock(JobStoreSupport.java:3819)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.releaseAcquiredTrigger(JobStoreSupport.java:2940)
+	at org.quartz.core.QuartzSchedulerThread.releaseIfScheduleChangedSignificantly(QuartzSchedulerThread.java:472)
+	at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:333)
+
+2020-09-15 22:26:19.533 ERROR 35952 --- [quartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread    QuartzSchedulerThread.java:435: Runtime error occurred in main trigger firing loop.
+
+java.lang.IllegalStateException: JobStore is shutdown - aborting retry
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.retryExecuteInNonManagedTXLock(JobStoreSupport.java:3833)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.releaseAcquiredTrigger(JobStoreSupport.java:2940)
+	at org.quartz.core.QuartzSchedulerThread.releaseIfScheduleChangedSignificantly(QuartzSchedulerThread.java:472)
+	at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:333)
+

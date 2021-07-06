@@ -1,0 +1,50 @@
+@host=http://127.0.0.1:8889
+
+###
+GET {{host}}/registry?pageSize=1&pageNum=1
+Content-Type: application/json
+
+###
+GET {{host}}/registry/vos
+Content-Type: application/json
+
+###
+POST {{host}}/registry
+Content-Type: application/json
+
+{
+    "name": "vos",
+    "host": "192.168.109.2",
+    "port": "6999",
+    "protocol": "http",
+    "registryType": "V2"
+}
+
+###
+DELETE {{host}}/registry/vos
+
+###
+PUT {{host}}/registry
+Content-Type: application/json
+
+{
+    "name": "vos",
+    "host": "192.168.109.2",
+    "port": "6999",
+    "protocol": "http",
+    "registryType": "V2"
+}
+
+###
+GET {{host}}/images?registryName=vos&pageSize=10&pageNum=1
+Content-Type: application/json
+
+###
+GET {{host}}/actuator/beans
+
+@registryHost=http://192.168.56.7:6999
+###
+GET {{registryHost}}/v2/_catalog
+
+###
+GET {{registryHost}}/v2/cadvisor/tags/list

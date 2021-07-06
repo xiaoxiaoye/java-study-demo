@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="org.example.model.Person" table="person">
+        <meta attribute="class-description">
+            This class contains the person detail.
+        </meta>
+        <id name="id" type="int" column="id">
+            <generator class="native"/>
+        </id>
+        <property name="age" column="age" type="int"/>
+        <property name="name" column="name" type="string"/>
+        <set name="addresses">
+            <key column="person_id"></key>
+            <one-to-many class="org.example.model.Address"/>
+        </set>
+    </class>
+</hibernate-mapping>

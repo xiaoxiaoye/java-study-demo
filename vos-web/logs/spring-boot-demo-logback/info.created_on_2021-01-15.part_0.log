@@ -1,0 +1,20 @@
+2021-01-15 14:31:44.966  INFO 82713 --- [main] com.ai.vos.VosWebApplication             : No active profile set, falling back to default profiles: default
+2021-01-15 14:31:45.877  INFO 82713 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-15 14:31:45.881  INFO 82713 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-15 14:31:45.945  INFO 82713 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44ms. Found 0 Redis repository interfaces.
+2021-01-15 14:31:46.291  INFO 82713 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=dd253bf3-4d1f-31a4-88fc-b73b18ec4b3d
+2021-01-15 14:31:46.887  INFO 82713 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+2021-01-15 14:31:46.903  INFO 82713 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-15 14:31:46.903  INFO 82713 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-15 14:31:46.979  INFO 82713 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-15 14:31:46.979  INFO 82713 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1986 ms
+2021-01-15 14:31:47.939 DEBUG 82713 --- [main] nFilter$$EnhancerBySpringCGLIB$$7d3c099e : Filter 'jwtAuthenticationFilter' configured for use
+2021-01-15 14:31:47.978  INFO 82713 --- [main] mousio.etcd4j.transport.EtcdNettyClient  : Setting up Etcd4j Netty client
+2021-01-15 14:31:49.347  INFO 82713 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-15 14:31:49.403  INFO 82713 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3bc3d70e, org.springframework.security.web.context.SecurityContextPersistenceFilter@7ca29311, org.springframework.security.web.header.HeaderWriterFilter@62615be, org.springframework.web.filter.CorsFilter@78bce1c4, com.ai.vos.config.JwtAuthenticationFilter$$EnhancerBySpringCGLIB$$7d3c099e@3eec8583, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@782dc5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@67a3394c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@189e96af, org.springframework.security.web.session.SessionManagementFilter@5dc7391e, org.springframework.security.web.access.ExceptionTranslationFilter@5b0835cb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@29b4444a]
+2021-01-15 14:31:49.464  WARN 82713 --- [main] o.s.c.n.a.ArchaiusAutoConfiguration      : No spring.application.name found, defaulting to 'application'
+2021-01-15 14:31:49.474  WARN 82713 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-01-15 14:31:49.474  INFO 82713 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-15 14:31:49.487  WARN 82713 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-01-15 14:31:49.487  INFO 82713 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-15 14:31:49.561  INFO 82713 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'

@@ -1,0 +1,6 @@
+2020-07-13 21:18:15.814 ERROR 40992 --- [main] c.e.s.SpringBootDemoLogbackApplication   SpringBootDemoLogbackApplication.java:19: Spring boot启动初始化了 128 个 Bean
+2020-07-13 21:18:15.816 ERROR 40992 --- [main] c.e.s.SpringBootDemoLogbackApplication   SpringBootDemoLogbackApplication.java:24: 【SpringBootDemoLogbackApplication】启动异常：
+
+java.lang.ArithmeticException: / by zero
+	at com.example.springbootdemologback.SpringBootDemoLogbackApplication.main(SpringBootDemoLogbackApplication.java:22)
+

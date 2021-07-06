@@ -1,0 +1,126 @@
+2020-10-07 16:39:47.638  INFO 12416 --- [main] com.ai.vos.VosWebApplication             : No active profile set, falling back to default profiles: default
+2020-10-07 16:39:48.346  INFO 12416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-07 16:39:48.349  INFO 12416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-07 16:39:48.384  INFO 12416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+2020-10-07 16:39:48.659  INFO 12416 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=dd253bf3-4d1f-31a4-88fc-b73b18ec4b3d
+2020-10-07 16:39:49.134  INFO 12416 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+2020-10-07 16:39:49.144  INFO 12416 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-07 16:39:49.145  INFO 12416 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-07 16:39:49.250  INFO 12416 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-07 16:39:49.250  INFO 12416 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1595 ms
+2020-10-07 16:39:49.901 DEBUG 12416 --- [main] nFilter$$EnhancerBySpringCGLIB$$56b17ebc : Filter 'jwtAuthenticationFilter' configured for use
+2020-10-07 16:39:49.926  INFO 12416 --- [main] mousio.etcd4j.transport.EtcdNettyClient  : Setting up Etcd4j Netty client
+2020-10-07 16:39:50.961  INFO 12416 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-07 16:39:51.094  INFO 12416 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20608ef4, org.springframework.security.web.context.SecurityContextPersistenceFilter@7962c1d5, org.springframework.security.web.header.HeaderWriterFilter@19c06762, org.springframework.web.filter.CorsFilter@30a1b2ad, com.ai.vos.config.JwtAuthenticationFilter$$EnhancerBySpringCGLIB$$56b17ebc@6669cba, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@646c872a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6cb417fc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@436d2bb9, org.springframework.security.web.session.SessionManagementFilter@14b4d90b, org.springframework.security.web.access.ExceptionTranslationFilter@4f1f2f84, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@22a2e581]
+2020-10-07 16:39:51.116  WARN 12416 --- [main] o.s.c.n.a.ArchaiusAutoConfiguration      : No spring.application.name found, defaulting to 'application'
+2020-10-07 16:39:51.120  WARN 12416 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-10-07 16:39:51.120  INFO 12416 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-07 16:39:51.129  WARN 12416 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-10-07 16:39:51.130  INFO 12416 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-07 16:39:51.235  INFO 12416 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-07 16:39:51.540  INFO 12416 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-10-07 16:39:51.541  INFO 12416 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-10-07 16:39:51.541  INFO 12416 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-10-07 16:39:51.541  INFO 12416 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2020-10-07 16:39:51.589  INFO 12416 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+2020-10-07 16:39:51.607  INFO 12416 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-10-07 16:39:51.627  INFO 12416 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-10-07 16:39:51.651  INFO 12416 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-10-07 16:39:51.825  INFO 12416 --- [main] com.ai.vos.VosWebApplication             : Started VosWebApplication in 5.359 seconds (JVM running for 6.7)
+2020-10-07 16:39:55.257  INFO 12416 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-07 16:40:00.046  INFO 12431 --- [main] com.ai.vos.VosWebApplication             : No active profile set, falling back to default profiles: default
+2020-10-07 16:40:00.685  INFO 12431 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-07 16:40:00.688  INFO 12431 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-07 16:40:00.723  INFO 12431 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+2020-10-07 16:40:00.990  INFO 12431 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=dd253bf3-4d1f-31a4-88fc-b73b18ec4b3d
+2020-10-07 16:40:01.405  INFO 12431 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+2020-10-07 16:40:01.416  INFO 12431 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-07 16:40:01.416  INFO 12431 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-07 16:40:01.519  INFO 12431 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-07 16:40:01.519  INFO 12431 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1453 ms
+2020-10-07 16:40:02.119 DEBUG 12431 --- [main] nFilter$$EnhancerBySpringCGLIB$$b4a9d158 : Filter 'jwtAuthenticationFilter' configured for use
+2020-10-07 16:40:02.141  INFO 12431 --- [main] mousio.etcd4j.transport.EtcdNettyClient  : Setting up Etcd4j Netty client
+2020-10-07 16:40:03.035  INFO 12431 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-07 16:40:03.072  INFO 12431 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3663af34, org.springframework.security.web.context.SecurityContextPersistenceFilter@34d3bfca, org.springframework.security.web.header.HeaderWriterFilter@3694461d, org.springframework.web.filter.CorsFilter@59aba3c3, com.ai.vos.config.JwtAuthenticationFilter$$EnhancerBySpringCGLIB$$b4a9d158@7d5ef1c3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2484c868, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c7a06ec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4693d24f, org.springframework.security.web.session.SessionManagementFilter@4d71ec5b, org.springframework.security.web.access.ExceptionTranslationFilter@5f5c0eda, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@57bfca3a]
+2020-10-07 16:40:03.097  WARN 12431 --- [main] o.s.c.n.a.ArchaiusAutoConfiguration      : No spring.application.name found, defaulting to 'application'
+2020-10-07 16:40:03.101  WARN 12431 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-10-07 16:40:03.101  INFO 12431 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-07 16:40:03.107  WARN 12431 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-10-07 16:40:03.107  INFO 12431 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-07 16:40:03.198  INFO 12431 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-07 16:40:03.480  INFO 12431 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-10-07 16:40:03.481  INFO 12431 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-10-07 16:40:03.482  INFO 12431 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-10-07 16:40:03.482  INFO 12431 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2020-10-07 16:40:03.520  INFO 12431 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+2020-10-07 16:40:03.538  INFO 12431 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-10-07 16:40:03.557  INFO 12431 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-10-07 16:40:03.581  INFO 12431 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-10-07 16:40:03.735  INFO 12431 --- [main] com.ai.vos.VosWebApplication             : Started VosWebApplication in 4.895 seconds (JVM running for 5.393)
+2020-10-07 16:52:35.360  INFO 12431 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-07 16:52:39.527  INFO 12782 --- [main] com.ai.vos.VosWebApplication             : No active profile set, falling back to default profiles: default
+2020-10-07 16:52:40.271  INFO 12782 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-07 16:52:40.273  INFO 12782 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-07 16:52:40.314  INFO 12782 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2020-10-07 16:52:40.563  INFO 12782 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=dd253bf3-4d1f-31a4-88fc-b73b18ec4b3d
+2020-10-07 16:52:41.019  INFO 12782 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+2020-10-07 16:52:41.030  INFO 12782 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-07 16:52:41.030  INFO 12782 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-07 16:52:41.140  INFO 12782 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-07 16:52:41.140  INFO 12782 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1592 ms
+2020-10-07 16:52:41.810 DEBUG 12782 --- [main] nFilter$$EnhancerBySpringCGLIB$$b4a9d158 : Filter 'jwtAuthenticationFilter' configured for use
+2020-10-07 16:52:41.833  INFO 12782 --- [main] mousio.etcd4j.transport.EtcdNettyClient  : Setting up Etcd4j Netty client
+2020-10-07 16:52:42.746  INFO 12782 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-07 16:52:42.784  INFO 12782 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75ef1392, org.springframework.security.web.context.SecurityContextPersistenceFilter@7957aa57, org.springframework.security.web.header.HeaderWriterFilter@6655f3cd, org.springframework.web.filter.CorsFilter@4271b748, com.ai.vos.config.JwtAuthenticationFilter$$EnhancerBySpringCGLIB$$b4a9d158@7d5ef1c3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6b3bc1f6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1af6974c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@56d6e2e1, org.springframework.security.web.session.SessionManagementFilter@19d13d04, org.springframework.security.web.access.ExceptionTranslationFilter@20e3b165, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1a5a4f8]
+2020-10-07 16:52:42.810  WARN 12782 --- [main] o.s.c.n.a.ArchaiusAutoConfiguration      : No spring.application.name found, defaulting to 'application'
+2020-10-07 16:52:42.814  WARN 12782 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-10-07 16:52:42.814  INFO 12782 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-07 16:52:42.854  WARN 12782 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-10-07 16:52:42.854  INFO 12782 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-07 16:52:42.914  INFO 12782 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-07 16:52:43.214  INFO 12782 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-10-07 16:52:43.215  INFO 12782 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-10-07 16:52:43.216  INFO 12782 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-10-07 16:52:43.216  INFO 12782 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2020-10-07 16:52:43.253  INFO 12782 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+2020-10-07 16:52:43.272  INFO 12782 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-10-07 16:52:43.298  INFO 12782 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-10-07 16:52:43.325  INFO 12782 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-10-07 16:52:43.524  INFO 12782 --- [main] com.ai.vos.VosWebApplication             : Started VosWebApplication in 5.307 seconds (JVM running for 5.76)
+2020-10-07 16:53:04.542  INFO 12782 --- [http-nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-07 16:53:04.543  INFO 12782 --- [http-nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-07 16:53:04.552  INFO 12782 --- [http-nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-10-07 16:53:56.375  INFO 12782 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-07 16:53:59.980  INFO 12823 --- [main] com.ai.vos.VosWebApplication             : No active profile set, falling back to default profiles: default
+2020-10-07 16:54:00.814  INFO 12823 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-07 16:54:00.817  INFO 12823 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-07 16:54:00.862  INFO 12823 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28ms. Found 0 Redis repository interfaces.
+2020-10-07 16:54:01.158  INFO 12823 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=dd253bf3-4d1f-31a4-88fc-b73b18ec4b3d
+2020-10-07 16:54:01.575  INFO 12823 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+2020-10-07 16:54:01.587  INFO 12823 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-07 16:54:01.587  INFO 12823 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-07 16:54:01.705  INFO 12823 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-07 16:54:01.705  INFO 12823 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1700 ms
+2020-10-07 16:54:02.539 DEBUG 12823 --- [main] nFilter$$EnhancerBySpringCGLIB$$b4a9d158 : Filter 'jwtAuthenticationFilter' configured for use
+2020-10-07 16:54:02.563  INFO 12823 --- [main] mousio.etcd4j.transport.EtcdNettyClient  : Setting up Etcd4j Netty client
+2020-10-07 16:54:03.778  INFO 12823 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-07 16:54:03.821  INFO 12823 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75ef1392, org.springframework.security.web.context.SecurityContextPersistenceFilter@7957aa57, org.springframework.security.web.header.HeaderWriterFilter@6655f3cd, org.springframework.web.filter.CorsFilter@4271b748, com.ai.vos.config.JwtAuthenticationFilter$$EnhancerBySpringCGLIB$$b4a9d158@7d5ef1c3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6b3bc1f6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1af6974c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@56d6e2e1, org.springframework.security.web.session.SessionManagementFilter@19d13d04, org.springframework.security.web.access.ExceptionTranslationFilter@20e3b165, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1a5a4f8]
+2020-10-07 16:54:03.846  WARN 12823 --- [main] o.s.c.n.a.ArchaiusAutoConfiguration      : No spring.application.name found, defaulting to 'application'
+2020-10-07 16:54:03.850  WARN 12823 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-10-07 16:54:03.850  INFO 12823 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-07 16:54:03.897  WARN 12823 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-10-07 16:54:03.897  INFO 12823 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-07 16:54:04.002  INFO 12823 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-07 16:54:04.348  INFO 12823 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-10-07 16:54:04.349  INFO 12823 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-10-07 16:54:04.349  INFO 12823 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-10-07 16:54:04.350  INFO 12823 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2020-10-07 16:54:04.390  INFO 12823 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+2020-10-07 16:54:04.409  INFO 12823 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-10-07 16:54:04.433  INFO 12823 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-10-07 16:54:04.461  INFO 12823 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-10-07 16:54:04.664  INFO 12823 --- [main] com.ai.vos.VosWebApplication             : Started VosWebApplication in 5.609 seconds (JVM running for 6.068)
+2020-10-07 16:54:10.523  INFO 12823 --- [http-nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-07 16:54:10.524  INFO 12823 --- [http-nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-07 16:54:10.530  INFO 12823 --- [http-nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-10-07 16:55:53.023  INFO 12823 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

@@ -1,0 +1,31 @@
+<!DOCTYPE generatorConfiguration PUBLIC
+ "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+ "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+  <context id="simple" targetRuntime="MyBatis3">
+    <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+        connectionURL="jdbc:mysql://192.168.109.2:3306/test?useUnicode=true&amp;characterEncoding=UTF-8"
+        userId="test"
+        password="123456">
+    </jdbcConnection>
+
+    <javaModelGenerator targetPackage="com.remmy.registrymanager.repository.model" targetProject="registrymanager/src/main/java"/>
+
+    <sqlMapGenerator targetPackage="mapper" targetProject="registrymanager/src/main/resources"/>
+
+    <javaClientGenerator type="XMLMAPPER" targetPackage="com.remmy.registrymanager.repository.mapper" targetProject="registrymanager/src/main/java"/>
+
+    <!-- <table tableName="REGISTRY_DEFINE" /> -->
+    <!-- <table tableName="IMAGE_CACHE" /> -->
+    <table tableName="SYS_LOG" >
+      <generatedKey column="ID" sqlStatement="JDBC" />
+    </table>
+    <table tableName="REGISTRY_DEFINE">
+      <generatedKey column="ID" sqlStatement="JDBC" />
+      <columnOverride column="TYPE" javaType="com.remmy.registrymanager.utils.RegistryType"></columnOverride>
+    </table>
+    <table tableName="IMAGE_CACHE">
+      <generatedKey column="ID" sqlStatement="JDBC" />
+    </table>
+  </context>
+</generatorConfiguration>

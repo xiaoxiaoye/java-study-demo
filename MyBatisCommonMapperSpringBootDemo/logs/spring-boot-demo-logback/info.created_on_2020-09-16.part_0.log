@@ -1,0 +1,319 @@
+2020-09-16 12:47:58.435  INFO 43937 --- [restartedMain] tisCommonMapperSpringBootDemoApplication : Starting MybatisCommonMapperSpringBootDemoApplication on localhost with PID 43937 (/Users/yejiaxin/Documents/CODE/Study/java/MyBatisCommonMapperSpringBootDemo/target/classes started by yejiaxin in /Users/yejiaxin/Documents/CODE/Study/java/MyBatisCommonMapperSpringBootDemo)
+2020-09-16 12:47:58.439 DEBUG 43937 --- [restartedMain] tisCommonMapperSpringBootDemoApplication : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-09-16 12:47:58.440  INFO 43937 --- [restartedMain] tisCommonMapperSpringBootDemoApplication : No active profile set, falling back to default profiles: default
+2020-09-16 12:47:58.534  INFO 43937 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-16 12:47:58.534  INFO 43937 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-16 12:47:59.522  INFO 43937 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-16 12:47:59.525  INFO 43937 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-16 12:47:59.563  INFO 43937 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-09-16 12:47:59.745  WARN 43937 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.mybatiscommonmapperspringbootdemo]' package. Please check your configuration.
+2020-09-16 12:48:00.776  INFO 43937 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8999 (http)
+2020-09-16 12:48:00.791  INFO 43937 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-16 12:48:00.792  INFO 43937 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-16 12:48:00.864  INFO 43937 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-16 12:48:00.865  INFO 43937 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2330 ms
+2020-09-16 12:48:01.067  INFO 43937 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-16 12:48:01.613  INFO 43937 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-16 12:48:01.714  INFO 43937 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-09-16 12:48:01.757  INFO 43937 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-09-16 12:48:01.757  INFO 43937 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2020-09-16 12:48:01.763  INFO 43937 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2020-09-16 12:48:01.767  INFO 43937 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2020-09-16 12:48:01.769  INFO 43937 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2020-09-16 12:48:01.769  INFO 43937 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-09-16 12:48:01.770  INFO 43937 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2020-09-16 12:48:01.770  INFO 43937 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@40d12cb7
+2020-09-16 12:48:03.052  INFO 43937 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-16 12:48:03.294  INFO 43937 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-16 12:48:03.331  INFO 43937 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-16 12:48:03.485  INFO 43937 --- [restartedMain] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-09-16 12:48:03.486  INFO 43937 --- [restartedMain] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-09-16 12:48:03.487  INFO 43937 --- [restartedMain] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-09-16 12:48:03.487  INFO 43937 --- [restartedMain] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2020-09-16 12:48:04.122  INFO 43937 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-16 12:48:04.208  INFO 43937 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8999 (http) with context path ''
+2020-09-16 12:48:04.209  INFO 43937 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-09-16 12:48:04.235  INFO 43937 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-09-16 12:48:04.285  INFO 43937 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-09-16 12:48:04.669  INFO 43937 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2020-09-16 12:48:04.743  INFO 43937 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Freed 0 triggers from 'acquired' / 'blocked' state.
+2020-09-16 12:48:04.747  INFO 43937 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Handling 1 trigger(s) that missed their scheduled fire-time.
+2020-09-16 12:48:04.801  INFO 43937 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2020-09-16 12:48:04.801  INFO 43937 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovery complete.
+2020-09-16 12:48:04.803  INFO 43937 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 'complete' triggers.
+2020-09-16 12:48:04.805  INFO 43937 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 stale fired job entries.
+2020-09-16 12:48:04.812  INFO 43937 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-09-16 12:48:04.839  INFO 43937 --- [restartedMain] tisCommonMapperSpringBootDemoApplication : Started MybatisCommonMapperSpringBootDemoApplication in 6.915 seconds (JVM running for 7.595)
+2020-09-16 12:48:04.842  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:48:06.346  INFO 43937 --- [quartzScheduler_Worker-1] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:48:08.335  INFO 43937 --- [quartzScheduler_Worker-2] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:48:09.853  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:48:10.333  INFO 43937 --- [quartzScheduler_Worker-3] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:48:12.336  INFO 43937 --- [quartzScheduler_Worker-4] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:48:14.340  INFO 43937 --- [quartzScheduler_Worker-5] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:48:14.863  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:48:16.333  INFO 43937 --- [quartzScheduler_Worker-6] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:48:18.341  INFO 43937 --- [quartzScheduler_Worker-7] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:48:19.869  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:48:20.345  INFO 43937 --- [quartzScheduler_Worker-8] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:48:22.338  INFO 43937 --- [quartzScheduler_Worker-9] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:48:24.348  INFO 43937 --- [quartzScheduler_Worker-10] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:48:24.875  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:48:26.336  INFO 43937 --- [quartzScheduler_Worker-1] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:48:28.334  INFO 43937 --- [quartzScheduler_Worker-2] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:48:29.882  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:48:30.330  INFO 43937 --- [quartzScheduler_Worker-3] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:48:32.336  INFO 43937 --- [quartzScheduler_Worker-4] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:48:34.338  INFO 43937 --- [quartzScheduler_Worker-5] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:48:34.889  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:48:36.336  INFO 43937 --- [quartzScheduler_Worker-6] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:48:38.334  INFO 43937 --- [quartzScheduler_Worker-7] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:48:39.898  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:48:40.335  INFO 43937 --- [quartzScheduler_Worker-8] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:48:42.331  INFO 43937 --- [quartzScheduler_Worker-9] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:48:44.329  INFO 43937 --- [quartzScheduler_Worker-10] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:48:44.902  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:48:46.334  INFO 43937 --- [quartzScheduler_Worker-1] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:48:48.329  INFO 43937 --- [quartzScheduler_Worker-2] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:48:49.909  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:48:50.338  INFO 43937 --- [quartzScheduler_Worker-3] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:48:52.336  INFO 43937 --- [quartzScheduler_Worker-4] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:48:54.333  INFO 43937 --- [quartzScheduler_Worker-5] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:48:54.919  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:48:56.339  INFO 43937 --- [quartzScheduler_Worker-6] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:48:58.332  INFO 43937 --- [quartzScheduler_Worker-7] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:48:59.927  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:49:00.334  INFO 43937 --- [quartzScheduler_Worker-8] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:02.337  INFO 43937 --- [quartzScheduler_Worker-9] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:04.332  INFO 43937 --- [quartzScheduler_Worker-10] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:04.934  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:49:06.336  INFO 43937 --- [quartzScheduler_Worker-1] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:08.336  INFO 43937 --- [quartzScheduler_Worker-2] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:09.940  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:49:10.337  INFO 43937 --- [quartzScheduler_Worker-3] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:12.329  INFO 43937 --- [quartzScheduler_Worker-4] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:14.337  INFO 43937 --- [quartzScheduler_Worker-5] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:14.947  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:49:16.334  INFO 43937 --- [quartzScheduler_Worker-6] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:18.336  INFO 43937 --- [quartzScheduler_Worker-7] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:19.954  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:49:20.336  INFO 43937 --- [quartzScheduler_Worker-8] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:22.332  INFO 43937 --- [quartzScheduler_Worker-9] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:24.330  INFO 43937 --- [quartzScheduler_Worker-10] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:24.961  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:49:26.338  INFO 43937 --- [quartzScheduler_Worker-1] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:28.335  INFO 43937 --- [quartzScheduler_Worker-2] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:29.967  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:49:30.335  INFO 43937 --- [quartzScheduler_Worker-3] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:32.338  INFO 43937 --- [quartzScheduler_Worker-4] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:34.332  INFO 43937 --- [quartzScheduler_Worker-5] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:34.976  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:49:36.335  INFO 43937 --- [quartzScheduler_Worker-6] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:38.335  INFO 43937 --- [quartzScheduler_Worker-7] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:39.980  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:49:40.335  INFO 43937 --- [quartzScheduler_Worker-8] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:42.338  INFO 43937 --- [quartzScheduler_Worker-9] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:44.333  INFO 43937 --- [quartzScheduler_Worker-10] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:44.986  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:49:46.337  INFO 43937 --- [quartzScheduler_Worker-1] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:48.335  INFO 43937 --- [quartzScheduler_Worker-2] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:49.992  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:49:50.333  INFO 43937 --- [quartzScheduler_Worker-3] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:52.331  INFO 43937 --- [quartzScheduler_Worker-4] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:54.330  INFO 43937 --- [quartzScheduler_Worker-5] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:54.997  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:49:56.329  INFO 43937 --- [quartzScheduler_Worker-6] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:49:58.328  INFO 43937 --- [quartzScheduler_Worker-7] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:00.006  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:50:00.333  INFO 43937 --- [quartzScheduler_Worker-8] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:02.332  INFO 43937 --- [quartzScheduler_Worker-9] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:04.329  INFO 43937 --- [quartzScheduler_Worker-10] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:05.014  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:50:06.328  INFO 43937 --- [quartzScheduler_Worker-1] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:08.336  INFO 43937 --- [quartzScheduler_Worker-2] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:10.019  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:50:10.332  INFO 43937 --- [quartzScheduler_Worker-3] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:12.331  INFO 43937 --- [quartzScheduler_Worker-4] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:14.334  INFO 43937 --- [quartzScheduler_Worker-5] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:15.024  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:50:16.339  INFO 43937 --- [quartzScheduler_Worker-6] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:18.330  INFO 43937 --- [quartzScheduler_Worker-7] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:20.028  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:50:20.333  INFO 43937 --- [quartzScheduler_Worker-8] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:22.333  INFO 43937 --- [quartzScheduler_Worker-9] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:24.333  INFO 43937 --- [quartzScheduler_Worker-10] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:25.032  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:50:26.329  INFO 43937 --- [quartzScheduler_Worker-1] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:28.332  INFO 43937 --- [quartzScheduler_Worker-2] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:30.040  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:50:30.334  INFO 43937 --- [quartzScheduler_Worker-3] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:32.336  INFO 43937 --- [quartzScheduler_Worker-4] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:34.329  INFO 43937 --- [quartzScheduler_Worker-5] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:35.049  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:50:36.331  INFO 43937 --- [quartzScheduler_Worker-6] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:38.331  INFO 43937 --- [quartzScheduler_Worker-7] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:40.055  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:50:40.331  INFO 43937 --- [quartzScheduler_Worker-8] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:42.336  INFO 43937 --- [quartzScheduler_Worker-9] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:44.336  INFO 43937 --- [quartzScheduler_Worker-10] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:45.063  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:50:46.331  INFO 43937 --- [quartzScheduler_Worker-1] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:48.328  INFO 43937 --- [quartzScheduler_Worker-2] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:50.067  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:50:50.331  INFO 43937 --- [quartzScheduler_Worker-3] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:52.340  INFO 43937 --- [quartzScheduler_Worker-4] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:53.834  INFO 43937 --- [Thread-5] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-09-16 12:50:53.862  INFO 43937 --- [Thread-5] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-09-16 12:50:53.894  INFO 43937 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-16 12:50:53.899  INFO 43937 --- [Thread-5] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2020-09-16 12:50:53.899  INFO 43937 --- [Thread-5] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-09-16 12:50:53.899  INFO 43937 --- [Thread-5] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-09-16 12:50:53.901  INFO 43937 --- [Thread-5] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-09-16 12:50:53.904  INFO 43937 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-09-16 12:50:53.917  INFO 43937 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-09-16 12:50:54.194  INFO 43937 --- [restartedMain] tisCommonMapperSpringBootDemoApplication : Starting MybatisCommonMapperSpringBootDemoApplication on localhost with PID 43937 (/Users/yejiaxin/Documents/CODE/Study/java/MyBatisCommonMapperSpringBootDemo/target/classes started by yejiaxin in /Users/yejiaxin/Documents/CODE/Study/java/MyBatisCommonMapperSpringBootDemo)
+2020-09-16 12:50:54.194 DEBUG 43937 --- [restartedMain] tisCommonMapperSpringBootDemoApplication : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-09-16 12:50:54.194  INFO 43937 --- [restartedMain] tisCommonMapperSpringBootDemoApplication : No active profile set, falling back to default profiles: default
+2020-09-16 12:50:54.572  INFO 43937 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-16 12:50:54.572  INFO 43937 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-16 12:50:54.583  INFO 43937 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2020-09-16 12:50:54.639  WARN 43937 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.mybatiscommonmapperspringbootdemo]' package. Please check your configuration.
+2020-09-16 12:50:54.877  INFO 43937 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8999 (http)
+2020-09-16 12:50:54.878  INFO 43937 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-16 12:50:54.878  INFO 43937 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-16 12:50:54.884  INFO 43937 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-16 12:50:54.885  INFO 43937 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 686 ms
+2020-09-16 12:50:54.950  INFO 43937 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-09-16 12:50:55.056  INFO 43937 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-09-16 12:50:55.091  INFO 43937 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-09-16 12:50:55.093  INFO 43937 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-09-16 12:50:55.093  INFO 43937 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2020-09-16 12:50:55.094  INFO 43937 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2020-09-16 12:50:55.094  INFO 43937 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2020-09-16 12:50:55.094  INFO 43937 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2020-09-16 12:50:55.094  INFO 43937 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-09-16 12:50:55.094  INFO 43937 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2020-09-16 12:50:55.094  INFO 43937 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4aa43d33
+2020-09-16 12:50:55.638  INFO 43937 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-16 12:50:55.759  INFO 43937 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-16 12:50:55.770  INFO 43937 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-16 12:50:55.832  INFO 43937 --- [restartedMain] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-09-16 12:50:55.832  INFO 43937 --- [restartedMain] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-09-16 12:50:55.832  INFO 43937 --- [restartedMain] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-09-16 12:50:55.832  INFO 43937 --- [restartedMain] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2020-09-16 12:50:56.050  INFO 43937 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-16 12:50:56.089  INFO 43937 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8999 (http) with context path ''
+2020-09-16 12:50:56.090  INFO 43937 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-09-16 12:50:56.091  INFO 43937 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-09-16 12:50:56.099  INFO 43937 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-09-16 12:50:56.119  INFO 43937 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2020-09-16 12:50:56.133  INFO 43937 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Freed 0 triggers from 'acquired' / 'blocked' state.
+2020-09-16 12:50:56.137  INFO 43937 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2020-09-16 12:50:56.137  INFO 43937 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovery complete.
+2020-09-16 12:50:56.139  INFO 43937 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 'complete' triggers.
+2020-09-16 12:50:56.141  INFO 43937 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 stale fired job entries.
+2020-09-16 12:50:56.145  INFO 43937 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-09-16 12:50:56.156  INFO 43937 --- [restartedMain] tisCommonMapperSpringBootDemoApplication : Started MybatisCommonMapperSpringBootDemoApplication in 2.015 seconds (JVM running for 178.91)
+2020-09-16 12:50:56.158  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:50:56.198  INFO 43937 --- [quartzScheduler_Worker-1] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:56.341  INFO 43937 --- [quartzScheduler_Worker-2] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:50:58.335  INFO 43937 --- [quartzScheduler_Worker-3] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:00.332  INFO 43937 --- [quartzScheduler_Worker-4] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:01.168  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:51:02.331  INFO 43937 --- [quartzScheduler_Worker-5] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:04.335  INFO 43937 --- [quartzScheduler_Worker-6] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:06.380  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:51:06.413  INFO 43937 --- [quartzScheduler_Worker-7] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:08.333  INFO 43937 --- [quartzScheduler_Worker-8] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:10.336  INFO 43937 --- [quartzScheduler_Worker-9] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:11.388  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:51:12.329  INFO 43937 --- [quartzScheduler_Worker-10] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:14.334  INFO 43937 --- [quartzScheduler_Worker-1] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:16.329  INFO 43937 --- [quartzScheduler_Worker-2] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:16.393  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:51:18.335  INFO 43937 --- [quartzScheduler_Worker-3] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:20.334  INFO 43937 --- [quartzScheduler_Worker-4] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:21.403  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:51:22.328  INFO 43937 --- [quartzScheduler_Worker-5] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:24.333  INFO 43937 --- [quartzScheduler_Worker-6] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:26.333  INFO 43937 --- [quartzScheduler_Worker-7] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:26.409  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:51:28.336  INFO 43937 --- [quartzScheduler_Worker-8] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:30.333  INFO 43937 --- [quartzScheduler_Worker-9] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:31.417  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:51:32.333  INFO 43937 --- [quartzScheduler_Worker-10] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:34.332  INFO 43937 --- [quartzScheduler_Worker-1] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:36.344  INFO 43937 --- [quartzScheduler_Worker-2] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:36.425  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:51:38.337  INFO 43937 --- [quartzScheduler_Worker-3] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:40.339  INFO 43937 --- [quartzScheduler_Worker-4] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:41.436  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:51:42.335  INFO 43937 --- [quartzScheduler_Worker-5] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:44.333  INFO 43937 --- [quartzScheduler_Worker-6] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:46.333  INFO 43937 --- [quartzScheduler_Worker-7] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:46.439  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:51:48.332  INFO 43937 --- [quartzScheduler_Worker-8] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:50.330  INFO 43937 --- [quartzScheduler_Worker-9] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:51.446  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:51:52.331  INFO 43937 --- [quartzScheduler_Worker-10] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:54.333  INFO 43937 --- [quartzScheduler_Worker-1] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:56.331  INFO 43937 --- [quartzScheduler_Worker-2] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:51:56.451  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:51:58.333  INFO 43937 --- [quartzScheduler_Worker-3] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:00.336  INFO 43937 --- [quartzScheduler_Worker-4] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:01.458  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:52:02.332  INFO 43937 --- [quartzScheduler_Worker-5] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:04.329  INFO 43937 --- [quartzScheduler_Worker-6] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:06.332  INFO 43937 --- [quartzScheduler_Worker-7] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:06.465  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:52:08.330  INFO 43937 --- [quartzScheduler_Worker-8] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:10.334  INFO 43937 --- [quartzScheduler_Worker-9] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:11.474  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:52:12.335  INFO 43937 --- [quartzScheduler_Worker-10] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:14.327  INFO 43937 --- [quartzScheduler_Worker-1] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:16.332  INFO 43937 --- [quartzScheduler_Worker-2] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:16.477  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:52:18.331  INFO 43937 --- [quartzScheduler_Worker-3] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:20.334  INFO 43937 --- [quartzScheduler_Worker-4] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:21.484  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:52:22.330  INFO 43937 --- [quartzScheduler_Worker-5] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:24.336  INFO 43937 --- [quartzScheduler_Worker-6] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:26.332  INFO 43937 --- [quartzScheduler_Worker-7] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:26.489  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:52:28.334  INFO 43937 --- [quartzScheduler_Worker-8] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:30.331  INFO 43937 --- [quartzScheduler_Worker-9] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:31.495  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:52:32.330  INFO 43937 --- [quartzScheduler_Worker-10] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:34.334  INFO 43937 --- [quartzScheduler_Worker-1] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:36.335  INFO 43937 --- [quartzScheduler_Worker-2] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:36.500  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:52:38.332  INFO 43937 --- [quartzScheduler_Worker-3] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:40.335  INFO 43937 --- [quartzScheduler_Worker-4] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:41.506  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:52:42.184  INFO 43937 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-09-16 12:52:42.327  INFO 43937 --- [quartzScheduler_Worker-5] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:44.333  INFO 43937 --- [quartzScheduler_Worker-6] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:46.336  INFO 43937 --- [quartzScheduler_Worker-7] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:46.510  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:52:48.332  INFO 43937 --- [quartzScheduler_Worker-8] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:50.333  INFO 43937 --- [quartzScheduler_Worker-9] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:51.517  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:52:52.334  INFO 43937 --- [quartzScheduler_Worker-10] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:54.334  INFO 43937 --- [quartzScheduler_Worker-1] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:56.332  INFO 43937 --- [quartzScheduler_Worker-2] tisCommonMapperSpringBootDemoApplication : hello world
+2020-09-16 12:52:56.525  INFO 43937 --- [scheduling-1] c.e.m.job.UserCountTask                  : count live user: 3
+2020-09-16 12:52:58.330  INFO 43937 --- [quartzScheduler_Worker-3] tisCommonMapperSpringBootDemoApplication : hello world

@@ -1,0 +1,4 @@
+@host=http://127.0.0.1:8999
+
+GET {{host}}/user/20
+Authorization: Basic admin:1234567

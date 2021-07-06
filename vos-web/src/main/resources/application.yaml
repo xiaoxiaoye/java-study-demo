@@ -1,0 +1,39 @@
+server:
+  port: 8889
+
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/vos?useUnicode=true&characterEncoding=UTF-8
+    username: vos
+    password: vos
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  messages:
+    basename: messages/error
+    cache-duration: -1
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: 123456
+    lettuce:
+      pool:
+        max-idle: 8
+        min-idle: 0
+        max-active: 8
+        max-wait: -1ms
+
+logging:
+  level:
+    com.ai.vos: debug
+
+vos:
+  backends:
+    # 仓库管理地址
+    registry: http://10.1.245.157:60001
+    # 应用管理地址
+    appManager: http://10.1.245.157:16000
+  etcd:
+    endpoints: http://127.0.0.1:2379
+
+jwt:
+  config:
+    key: 123456

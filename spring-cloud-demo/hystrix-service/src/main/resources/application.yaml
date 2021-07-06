@@ -1,0 +1,23 @@
+server:
+  port: 8401
+spring:
+  application:
+    name: hystrix-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:123456@replica1:8002/eureka/,http://admin:123456@replica2:8003/eureka/
+    fetch-registry: true
+    register-with-eureka: true
+service-url:
+  user-service: http://user-service
+
+logging:
+  level:
+    com:
+      example:
+        hystrixservice:
+          service: debug
+      netflix:
+        loadbalancer: debug
+

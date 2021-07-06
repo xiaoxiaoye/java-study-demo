@@ -1,0 +1,1 @@
+INSERT INTO vos.user VALUES ('name1', 'address1'),('name2', 'address2');
